@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 3264aa4141a371b49bff148daf4db254
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4257735461957540139
+    second: ANIM_Running_Up_Amira_6_Frames_0
+  - first:
+      213: 6708789101918450126
+    second: ANIM_Running_Up_Amira_6_Frames_1
+  - first:
+      213: 2876127416122694714
+    second: ANIM_Running_Up_Amira_6_Frames_2
+  - first:
+      213: 6593901672973494398
+    second: ANIM_Running_Up_Amira_6_Frames_3
+  - first:
+      213: 2448182678571572627
+    second: ANIM_Running_Up_Amira_6_Frames_4
+  - first:
+      213: -5643888526776610423
+    second: ANIM_Running_Up_Amira_6_Frames_5
+  - first:
+      213: 1419975289998487991
+    second: ANIM_Running_Up_Amira_6_Frames_6
+  - first:
+      213: -6704329358169091683
+    second: ANIM_Running_Up_Amira_6_Frames_7
+  - first:
+      213: -2912194431335746609
+    second: ANIM_Running_Up_Amira_6_Frames_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 221
+        width: 99
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29109d18d3861b30800000000000000
+      internalID: 4257735461957540139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 217
+        width: 107
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec17cdcb4286a1d50800000000000000
+      internalID: 6708789101918450126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 302
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c51c685ae0ae720800000000000000
+      internalID: 2876127416122694714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 219
+        width: 110
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e786075b2ae328b50800000000000000
+      internalID: 6593901672973494398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 103
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dd585dc21b9f120800000000000000
+      internalID: 2448182678571572627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 7
+        width: 109
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d3999941eca1b0800000000000000
+      internalID: -5643888526776610423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 108
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1313eb004c4b310800000000000000
+      internalID: 1419975289998487991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 10
+        width: 109
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91db1548ff65f2a0800000000000000
+      internalID: -6704329358169091683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 108
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3bc5b189ec597d0800000000000000
+      internalID: -2912194431335746609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Running_Up_Amira_6_Frames_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 92
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8960f237909f6f44db412c9acce3e6b5
+      internalID: -1737684724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da55c4997a142274e88c3792a51a6d85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ANIM_Running_Up_Amira_6_Frames_0: 4257735461957540139
+      ANIM_Running_Up_Amira_6_Frames_1: 6708789101918450126
+      ANIM_Running_Up_Amira_6_Frames_2: 2876127416122694714
+      ANIM_Running_Up_Amira_6_Frames_3: 6593901672973494398
+      ANIM_Running_Up_Amira_6_Frames_4: 2448182678571572627
+      ANIM_Running_Up_Amira_6_Frames_5: -5643888526776610423
+      ANIM_Running_Up_Amira_6_Frames_6: 1419975289998487991
+      ANIM_Running_Up_Amira_6_Frames_7: -6704329358169091683
+      ANIM_Running_Up_Amira_6_Frames_8: -2912194431335746609
+      ANIM_Running_Up_Amira_6_Frames_9: -1737684724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
