@@ -33,11 +33,11 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = direction * speed;
 
-      /*  if (PI.actions["Attack"].triggered)
+       if (PI.actions["Attack"].triggered)
         {
             Debug.Log("Jump action triggered");
         }
-        */
+    
     }
 
    void UpdateAnimation()
