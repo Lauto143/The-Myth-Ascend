@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 3;
     public int currentHealth;
 
     public UnityEvent onDeath;
@@ -12,7 +12,14 @@ public class Health : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        onHealthChanged.Invoke(currentHealth);        
+        onHealthChanged.Invoke(currentHealth);
+        
     }
+
+    void Update()
+    {
+        Debug.Log("La vida es " + (currentHealth));
+    }
+
 
 }

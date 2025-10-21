@@ -1,22 +1,35 @@
 using UnityEngine;
-using UnityEngine.Events;
-
 
 public class Damage : MonoBehaviour
 {
-public int damageAmount = 10;
+    [Header("Daño que inflige este objeto")]
+    public int damageAmount = 10;
 
- void OnCollisionEnter(Collision collision)
+    [Header("Usar Trigger en lugar de Colisión")]
+    public bool useTrigger = true;
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Health health = collision.gameObject.GetComponent<Health>();
+        if (!useTrigger)
+            ApplyDamage(collision.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (useTrigger)
+            ApplyDamage(other.gameObject);
+    }
+
+    void ApplyDamage(GameObject target)
+    {
+        Health health = target.GetComponent<Health>();
         if (health != null)
         {
             health.currentHealth -= damageAmount;
             health.onHealthChanged.Invoke(health.currentHealth);
+
             if (health.currentHealth <= 0)
-            {
                 health.onDeath.Invoke();
-            }
         }
     }
 }
