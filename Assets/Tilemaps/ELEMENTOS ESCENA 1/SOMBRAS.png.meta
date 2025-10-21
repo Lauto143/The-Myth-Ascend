@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 9c907021de03a024ea7112710e94ee5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2189040295598470676
+    second: SOMBRAS_0
+  - first:
+      213: 4011163834239800377
+    second: SOMBRAS_1
+  - first:
+      213: 5568625413288129533
+    second: SOMBRAS_2
+  - first:
+      213: 8468705532778550866
+    second: SOMBRAS_3
+  - first:
+      213: 286682680624778863
+    second: SOMBRAS_4
+  - first:
+      213: 6023746824007197264
+    second: SOMBRAS_5
+  - first:
+      213: 6788013353488018106
+    second: SOMBRAS_6
+  - first:
+      213: 8443666784221457877
+    second: SOMBRAS_7
+  - first:
+      213: -1879736488043039300
+    second: SOMBRAS_8
+  - first:
+      213: 2207003948289204157
+    second: SOMBRAS_9
+  - first:
+      213: 5089618488841353378
+    second: SOMBRAS_10
+  - first:
+      213: -3319996753765251571
+    second: SOMBRAS_11
+  - first:
+      213: -387758136701915458
+    second: SOMBRAS_12
+  - first:
+      213: -6098573290284910582
+    second: SOMBRAS_13
+  - first:
+      213: -4599100149461123266
+    second: SOMBRAS_14
+  - first:
+      213: -6239550122633448980
+    second: SOMBRAS_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOMBRAS_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1669
+        width: 952
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b9220d88016e10800000000000000
+      internalID: 2189040295598470676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_1
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1820
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934d1c351448aa730800000000000000
+      internalID: 4011163834239800377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_2
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1824
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3704e3f4bb74d40800000000000000
+      internalID: 5568625413288129533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_3
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1827
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25696ac10d2e68570800000000000000
+      internalID: 8468705532778550866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_4
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 1624
+        width: 175
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e85ed01608af300800000000000000
+      internalID: 286682680624778863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_5
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1563
+        width: 455
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05226dd32d5a89350800000000000000
+      internalID: 6023746824007197264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_6
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1506
+        width: 262
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abae2493e2ed33e50800000000000000
+      internalID: 6788013353488018106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_7
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 1300
+        width: 656
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dde84b243eed2570800000000000000
+      internalID: 8443666784221457877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_8
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 888
+        width: 258
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5bad69f95d9e5e0800000000000000
+      internalID: -1879736488043039300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_9
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 753
+        width: 106
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf99a3d56ad0ae10800000000000000
+      internalID: 2207003948289204157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_10
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 507
+        width: 127
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a836a5bc05f1a640800000000000000
+      internalID: 5089618488841353378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_11
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 499
+        width: 126
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d064f54ea800de1d0800000000000000
+      internalID: -3319996753765251571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_12
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 321
+        width: 130
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe6d1377086e9af0800000000000000
+      internalID: -387758136701915458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_13
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 332
+        width: 391
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08f1e377e38d5ba0800000000000000
+      internalID: -6098573290284910582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOMBRAS_14
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 321
+        width: 129
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7ce8f7c6bc20c0800000000000000
+      internalID: -4599100149461123266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0361d702897af5749b7a8a03b29ae94d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SOMBRAS_0: 2189040295598470676
+      SOMBRAS_1: 4011163834239800377
+      SOMBRAS_10: 5089618488841353378
+      SOMBRAS_11: -3319996753765251571
+      SOMBRAS_12: -387758136701915458
+      SOMBRAS_13: -6098573290284910582
+      SOMBRAS_14: -4599100149461123266
+      SOMBRAS_2: 5568625413288129533
+      SOMBRAS_3: 8468705532778550866
+      SOMBRAS_4: 286682680624778863
+      SOMBRAS_5: 6023746824007197264
+      SOMBRAS_6: 6788013353488018106
+      SOMBRAS_7: 8443666784221457877
+      SOMBRAS_8: -1879736488043039300
+      SOMBRAS_9: 2207003948289204157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
