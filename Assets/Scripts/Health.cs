@@ -18,7 +18,7 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("La vida es " + (currentHealth));
+        /*Debug.Log("La vida es " + (currentHealth));*/
     }
 
 

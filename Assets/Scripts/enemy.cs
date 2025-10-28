@@ -1,11 +1,13 @@
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [Header("Movimiento y detección")]
     public float speed = 3f;
     public float detectionRadius = 5f;
     public float stopDistance = 0.5f;
+
+    float health, maxHealth= 3f;
 
     [Header("Patrullaje")]
     public float patrolDistance = 3f;   // Qué tan lejos se mueve desde su punto inicial
@@ -16,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     private Vector2 startPoint;
     private bool movingRight = true;
     private float waitTimer;
+    public float damage = 1f;
 
     void Start()
     {
@@ -23,6 +26,7 @@ public class EnemyAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         startPoint = transform.position;
         waitTimer = 0f;
+        health = maxHealth;
     }
 
     void FixedUpdate()
@@ -107,4 +111,22 @@ public class EnemyAI : MonoBehaviour
         Gizmos.DrawLine(transform.position + Vector3.left * patrolDistance,
                         transform.position + Vector3.right * patrolDistance);
     }
+
+public void TakeDamage(float amount)
+{
+    health -= amount;
+    Debug.Log(gameObject.name + " recibió " + amount + " de daño. Vida restante: " + health);
+
+    if (health <= 0f)
+    {
+        Die();
+    }
+}
+
+void Die()
+{
+    Debug.Log(gameObject.name + " ha muerto.");
+    Destroy(gameObject);
+}
+
 }

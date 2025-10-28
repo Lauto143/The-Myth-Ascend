@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerInput PI;
     private Vector2 direction;
+    private Vector2 lastDirection; // 👈 Guarda la última dirección de movimiento
     private Animator animator;
+    public Transform Aim;
 
     void Start()
     {
@@ -20,11 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
         MovePlayer();
-       UpdateAnimation(); 
-
-
+        UpdateAnimation();
     }
 
     void MovePlayer()
@@ -33,21 +32,30 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity = direction * speed;
 
-       if (PI.actions["Attack"].triggered)
+        // 👇 Si hay movimiento, guardamos la dirección actual como la última dirección
+        if (direction != Vector2.zero)
         {
-            Debug.Log("Jump action triggered");
+            lastDirection = direction;
         }
-    
     }
 
-   void UpdateAnimation()
+    void UpdateAnimation()
     {
+        bool IsWalking = direction != Vector2.zero;
+        animator.SetBool("IsWalking", IsWalking);
 
-        bool isWalking = direction != Vector2.zero;
-        animator.SetBool("IsWalking", isWalking);
-        animator.SetFloat("InputX", direction.x);
-        animator.SetFloat("InputY", direction.y);
+        // 👇 Si se está moviendo, usamos la dirección actual
+        // 👇 Si no, mantenemos la última dirección
+        Vector2 facingDirection = (direction != Vector2.zero) ? direction : lastDirection;
 
+        animator.SetFloat("InputX", facingDirection.x);
+        animator.SetFloat("InputY", facingDirection.y);
+
+        Aim.right = facingDirection;
+
+        if (facingDirection != Vector2.zero)
+        {
+            Aim.up = facingDirection;
+        }
     }
-
 }
