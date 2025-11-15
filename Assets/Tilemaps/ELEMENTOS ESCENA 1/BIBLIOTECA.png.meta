@@ -115,10 +115,10 @@ TextureImporter:
       name: BIBLIOTECA_0
       rect:
         serializedVersion: 2
-        x: 1363
-        y: 1030
-        width: 429
-        height: 360
+        x: 1370
+        y: 1035
+        width: 416
+        height: 351
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +137,10 @@ TextureImporter:
       name: BIBLIOTECA_1
       rect:
         serializedVersion: 2
-        x: 1839
-        y: 1024
-        width: 428
-        height: 366
+        x: 1842
+        y: 1034
+        width: 418
+        height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,28 +151,6 @@ TextureImporter:
       bones: []
       spriteID: 7ccd236054926ebd0800000000000000
       internalID: -2601346358326403897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BIBLIOTECA_2
-      rect:
-        serializedVersion: 2
-        x: 1339
-        y: 987
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0d353e3ade1528d0800000000000000
-      internalID: -2871855264683442934
       vertices: []
       indices: 
       edges: []

@@ -7,26 +7,30 @@ public class Enemy : MonoBehaviour
     public float detectionRadius = 5f;
     public float stopDistance = 0.5f;
 
-    float health, maxHealth= 3f;
+    [Header("Vida")]
+    public float maxHealth = 3f;
+    private float currentHealth;
+
+    [Header("Ataque")]
+    public float damage = 1f;
 
     [Header("Patrullaje")]
-    public float patrolDistance = 3f;   // Qué tan lejos se mueve desde su punto inicial
-    public float waitTime = 2f;         // Tiempo de espera al llegar al borde del patrullaje
+    public float patrolDistance = 3f;
+    public float waitTime = 2f;
 
     private Transform player;
     private Rigidbody2D rb;
     private Vector2 startPoint;
     private bool movingRight = true;
     private float waitTimer;
-    public float damage = 1f;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
         rb = GetComponent<Rigidbody2D>();
         startPoint = transform.position;
         waitTimer = 0f;
-        health = maxHealth;
+        currentHealth = maxHealth;
     }
 
     void FixedUpdate()
@@ -61,7 +65,6 @@ public class Enemy : MonoBehaviour
 
     void Patrol()
     {
-        // Si está esperando, no se mueve
         if (waitTimer > 0f)
         {
             waitTimer -= Time.deltaTime;
@@ -71,7 +74,6 @@ public class Enemy : MonoBehaviour
 
         float distanceFromStart = transform.position.x - startPoint.x;
 
-        // Moverse hacia la derecha
         if (movingRight)
         {
             rb.linearVelocity = new Vector2(speed, 0f);
@@ -82,7 +84,6 @@ public class Enemy : MonoBehaviour
                 FlipSprite();
             }
         }
-        // Moverse hacia la izquierda
         else
         {
             rb.linearVelocity = new Vector2(-speed, 0f);
@@ -102,6 +103,22 @@ public class Enemy : MonoBehaviour
         transform.localScale = scale;
     }
 
+    // --- VIDA ---
+    public void TakeDamage(float amount)
+    {
+        currentHealth -= amount;
+        Debug.Log($"{gameObject.name} recibió {amount} de daño. Vida restante: {currentHealth}");
+
+        if (currentHealth <= 0f)
+            Die();
+    }
+
+    void Die()
+    {
+        Debug.Log(gameObject.name + " ha muerto.");
+        Destroy(gameObject);
+    }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -111,22 +128,4 @@ public class Enemy : MonoBehaviour
         Gizmos.DrawLine(transform.position + Vector3.left * patrolDistance,
                         transform.position + Vector3.right * patrolDistance);
     }
-
-public void TakeDamage(float amount)
-{
-    health -= amount;
-    Debug.Log(gameObject.name + " recibió " + amount + " de daño. Vida restante: " + health);
-
-    if (health <= 0f)
-    {
-        Die();
-    }
-}
-
-void Die()
-{
-    Debug.Log(gameObject.name + " ha muerto.");
-    Destroy(gameObject);
-}
-
 }

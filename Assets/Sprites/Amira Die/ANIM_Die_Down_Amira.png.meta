@@ -1,0 +1,2561 @@
+fileFormatVersion: 2
+guid: dcb7ed9190869a645a0e542b9504e78e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3198754783795341263
+    second: ANIM_Die_Down_Amira_0
+  - first:
+      213: -1894290698694287423
+    second: ANIM_Die_Down_Amira_1
+  - first:
+      213: 5014802477591686148
+    second: ANIM_Die_Down_Amira_2
+  - first:
+      213: 5527668650450169754
+    second: ANIM_Die_Down_Amira_3
+  - first:
+      213: 2304904604547592537
+    second: ANIM_Die_Down_Amira_4
+  - first:
+      213: 62607121234533022
+    second: ANIM_Die_Down_Amira_5
+  - first:
+      213: 1569575329482260267
+    second: ANIM_Die_Down_Amira_6
+  - first:
+      213: -3932459522449598726
+    second: ANIM_Die_Down_Amira_7
+  - first:
+      213: -906204090028242040
+    second: ANIM_Die_Down_Amira_8
+  - first:
+      213: 5721053074291666798
+    second: ANIM_Die_Down_Amira_9
+  - first:
+      213: 505457280270800731
+    second: ANIM_Die_Down_Amira_10
+  - first:
+      213: -385476195218666934
+    second: ANIM_Die_Down_Amira_11
+  - first:
+      213: 5533937450504707577
+    second: ANIM_Die_Down_Amira_12
+  - first:
+      213: -8617372408802990005
+    second: ANIM_Die_Down_Amira_13
+  - first:
+      213: -7220450748045091728
+    second: ANIM_Die_Down_Amira_14
+  - first:
+      213: 5023358163305163663
+    second: ANIM_Die_Down_Amira_15
+  - first:
+      213: 7264177302829198945
+    second: ANIM_Die_Down_Amira_16
+  - first:
+      213: -3326963752473131028
+    second: ANIM_Die_Down_Amira_17
+  - first:
+      213: -7304681553386189920
+    second: ANIM_Die_Down_Amira_18
+  - first:
+      213: 1697881287881433241
+    second: ANIM_Die_Down_Amira_19
+  - first:
+      213: -4425647755643246596
+    second: ANIM_Die_Down_Amira_20
+  - first:
+      213: -2661364329481564924
+    second: ANIM_Die_Down_Amira_21
+  - first:
+      213: -293990593564163985
+    second: ANIM_Die_Down_Amira_22
+  - first:
+      213: -4801049025562446263
+    second: ANIM_Die_Down_Amira_23
+  - first:
+      213: 1153227588189869933
+    second: ANIM_Die_Down_Amira_24
+  - first:
+      213: 3357558709659895625
+    second: ANIM_Die_Down_Amira_25
+  - first:
+      213: -3736636758574818612
+    second: ANIM_Die_Down_Amira_26
+  - first:
+      213: -4072225845067697850
+    second: ANIM_Die_Down_Amira_27
+  - first:
+      213: 5406530226803349101
+    second: ANIM_Die_Down_Amira_28
+  - first:
+      213: -2559158483520808089
+    second: ANIM_Die_Down_Amira_29
+  - first:
+      213: 1991905536460704376
+    second: ANIM_Die_Down_Amira_30
+  - first:
+      213: 8479387293553352734
+    second: ANIM_Die_Down_Amira_31
+  - first:
+      213: -4610596246119552230
+    second: ANIM_Die_Down_Amira_32
+  - first:
+      213: -4126975570352371569
+    second: ANIM_Die_Down_Amira_33
+  - first:
+      213: 4101130315239062945
+    second: ANIM_Die_Down_Amira_34
+  - first:
+      213: -5086173143142979910
+    second: ANIM_Die_Down_Amira_35
+  - first:
+      213: 8265559220466329167
+    second: ANIM_Die_Down_Amira_36
+  - first:
+      213: 5050785260354359432
+    second: ANIM_Die_Down_Amira_37
+  - first:
+      213: -3522690072310519518
+    second: ANIM_Die_Down_Amira_38
+  - first:
+      213: -8236141916552659926
+    second: ANIM_Die_Down_Amira_39
+  - first:
+      213: 8941563740025070306
+    second: ANIM_Die_Down_Amira_40
+  - first:
+      213: 1767030405502389850
+    second: ANIM_Die_Down_Amira_41
+  - first:
+      213: -1220403486120528787
+    second: ANIM_Die_Down_Amira_42
+  - first:
+      213: 2596260070914073423
+    second: ANIM_Die_Down_Amira_43
+  - first:
+      213: -8968035374077668188
+    second: ANIM_Die_Down_Amira_44
+  - first:
+      213: 1030764501164266838
+    second: ANIM_Die_Down_Amira_45
+  - first:
+      213: -8247301976216984824
+    second: ANIM_Die_Down_Amira_46
+  - first:
+      213: -7991853271105896459
+    second: ANIM_Die_Down_Amira_47
+  - first:
+      213: -5810353885332365574
+    second: ANIM_Die_Down_Amira_48
+  - first:
+      213: -589380524195865270
+    second: ANIM_Die_Down_Amira_49
+  - first:
+      213: 8013626327248083484
+    second: ANIM_Die_Down_Amira_50
+  - first:
+      213: 7309944225196390728
+    second: ANIM_Die_Down_Amira_51
+  - first:
+      213: -5368891316891236746
+    second: ANIM_Die_Down_Amira_52
+  - first:
+      213: 1196269633444215579
+    second: ANIM_Die_Down_Amira_53
+  - first:
+      213: -2606022381350907015
+    second: ANIM_Die_Down_Amira_54
+  - first:
+      213: 8723479729610859878
+    second: ANIM_Die_Down_Amira_55
+  - first:
+      213: -5025538794018506102
+    second: ANIM_Die_Down_Amira_56
+  - first:
+      213: -7242518378627513678
+    second: ANIM_Die_Down_Amira_57
+  - first:
+      213: 7975205344397150750
+    second: ANIM_Die_Down_Amira_58
+  - first:
+      213: 2461564469799969215
+    second: ANIM_Die_Down_Amira_59
+  - first:
+      213: -63276749504534678
+    second: ANIM_Die_Down_Amira_60
+  - first:
+      213: -1722442031841026635
+    second: ANIM_Die_Down_Amira_61
+  - first:
+      213: 8544873284829718382
+    second: ANIM_Die_Down_Amira_62
+  - first:
+      213: -4792040742810194717
+    second: ANIM_Die_Down_Amira_63
+  - first:
+      213: -8702759487044811837
+    second: ANIM_Die_Down_Amira_64
+  - first:
+      213: -5688523986883408239
+    second: ANIM_Die_Down_Amira_65
+  - first:
+      213: -7210984192297021534
+    second: ANIM_Die_Down_Amira_66
+  - first:
+      213: -118036959362838503
+    second: ANIM_Die_Down_Amira_67
+  - first:
+      213: -5038257308668186043
+    second: ANIM_Die_Down_Amira_68
+  - first:
+      213: 8747568999398399186
+    second: ANIM_Die_Down_Amira_69
+  - first:
+      213: 5970797289314445837
+    second: ANIM_Die_Down_Amira_70
+  - first:
+      213: -6119810051833088890
+    second: ANIM_Die_Down_Amira_71
+  - first:
+      213: -430843814586897962
+    second: ANIM_Die_Down_Amira_72
+  - first:
+      213: -2475347626310954314
+    second: ANIM_Die_Down_Amira_73
+  - first:
+      213: 7977581703608560207
+    second: ANIM_Die_Down_Amira_74
+  - first:
+      213: 4717002194005134065
+    second: ANIM_Die_Down_Amira_75
+  - first:
+      213: 134922896444999755
+    second: ANIM_Die_Down_Amira_76
+  - first:
+      213: -1293866205907633051
+    second: ANIM_Die_Down_Amira_77
+  - first:
+      213: -3642541980495090839
+    second: ANIM_Die_Down_Amira_78
+  - first:
+      213: -5112709506429372278
+    second: ANIM_Die_Down_Amira_79
+  - first:
+      213: 3570440520336294304
+    second: ANIM_Die_Down_Amira_80
+  - first:
+      213: -2635991931196663787
+    second: ANIM_Die_Down_Amira_81
+  - first:
+      213: 6903851892825829798
+    second: ANIM_Die_Down_Amira_82
+  - first:
+      213: -5432443219311152438
+    second: ANIM_Die_Down_Amira_83
+  - first:
+      213: 8022409586258322087
+    second: ANIM_Die_Down_Amira_84
+  - first:
+      213: -6759905846182107018
+    second: ANIM_Die_Down_Amira_85
+  - first:
+      213: 9125261174546351139
+    second: ANIM_Die_Down_Amira_86
+  - first:
+      213: 2083405576252181654
+    second: ANIM_Die_Down_Amira_87
+  - first:
+      213: 6443546709114935722
+    second: ANIM_Die_Down_Amira_88
+  - first:
+      213: -7145905771598660211
+    second: ANIM_Die_Down_Amira_89
+  - first:
+      213: 8117967306765252408
+    second: ANIM_Die_Down_Amira_90
+  - first:
+      213: 7311366274037447135
+    second: ANIM_Die_Down_Amira_91
+  - first:
+      213: -8663518368598716788
+    second: ANIM_Die_Down_Amira_92
+  - first:
+      213: 3705161922797420956
+    second: ANIM_Die_Down_Amira_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_0
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1608
+        width: 423
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1381c4cc87dbb93d0800000000000000
+      internalID: -3198754783795341263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_1
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1610
+        width: 422
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf100b55a026b5e0800000000000000
+      internalID: -1894290698694287423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_2
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1927
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ce997a848289540800000000000000
+      internalID: 5014802477591686148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_3
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 1749
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f252ac95936bc40800000000000000
+      internalID: 5527668650450169754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_4
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1608
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951b833a68aacff10800000000000000
+      internalID: 2304904604547592537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_5
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 1608
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a189558dc6ed000800000000000000
+      internalID: 62607121234533022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 774
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fb10a327048c510800000000000000
+      internalID: 1569575329482260267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 814
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af61ace36e81d69c0800000000000000
+      internalID: -3932459522449598726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 742
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4cdf6e248c63f0800000000000000
+      internalID: -906204090028242040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_9
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 777
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6faf4aa573456f40800000000000000
+      internalID: 5721053074291666798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_10
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 800
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b571da7e7beb30700800000000000000
+      internalID: 505457280270800731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_11
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 814
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a4f9a517386aaf0800000000000000
+      internalID: -385476195218666934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_12
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 836
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd509a8ace7ccc40800000000000000
+      internalID: 5533937450504707577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_13
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 806
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48ab047371f86880800000000000000
+      internalID: -8617372408802990005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_14
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 820
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c919cdc4ecbcb90800000000000000
+      internalID: -7220450748045091728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 705
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bec5772ad86b540800000000000000
+      internalID: 5023358163305163663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_16
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 774
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ee69805ca8fc460800000000000000
+      internalID: 7264177302829198945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_17
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 775
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce70d39181044d1d0800000000000000
+      internalID: -3326963752473131028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_18
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 789
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab411d34de80aa90800000000000000
+      internalID: -7304681553386189920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_19
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 783
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990a4fa1906109710800000000000000
+      internalID: 1697881287881433241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_20
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 797
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf721e770d0f492c0800000000000000
+      internalID: -4425647755643246596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_21
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 777
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d0b5b2e3fe01bd0800000000000000
+      internalID: -2661364329481564924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_22
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 731
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f604d4fdc198bebf0800000000000000
+      internalID: -293990593564163985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_23
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 743
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9467d1a295f3f5db0800000000000000
+      internalID: -4801049025562446263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_24
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 753
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67dc33a166110010800000000000000
+      internalID: 1153227588189869933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_25
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 753
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9470cc97bd1789e20800000000000000
+      internalID: 3357558709659895625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_26
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 755
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca1b766aacc42cc0800000000000000
+      internalID: -3736636758574818612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_27
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 768
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64133936b2c8c77c0800000000000000
+      internalID: -4072225845067697850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_28
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 742
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669604a89ad70b40800000000000000
+      internalID: 5406530226803349101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_29
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 758
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b90d11bea0c7cd0800000000000000
+      internalID: -2559158483520808089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_30
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 743
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87acfd6288ba4ab10800000000000000
+      internalID: 1991905536460704376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 550
+        width: 420
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10653951d5dca570800000000000000
+      internalID: 8479387293553352734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_32
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 683
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b6b43642fd300c0800000000000000
+      internalID: -4610596246119552230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_33
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 731
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f888e6c95990ab6c0800000000000000
+      internalID: -4126975570352371569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_34
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 717
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adf8610b442ae830800000000000000
+      internalID: 4101130315239062945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_35
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 733
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6a4d859784a69b0800000000000000
+      internalID: -5086173143142979910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_36
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 714
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46a9d5715a25b270800000000000000
+      internalID: 8265559220466329167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_37
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 734
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88053302f6ef71640800000000000000
+      internalID: 5050785260354359432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_38
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 705
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229e2221b04ec1fc0800000000000000
+      internalID: -3522690072310519518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_39
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 726
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c7c28509853bd80800000000000000
+      internalID: -8236141916552659926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_40
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 683
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e225bcd8d0d61c70800000000000000
+      internalID: 8941563740025070306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_41
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 702
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ec84baac0c58810800000000000000
+      internalID: 1767030405502389850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_42
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 567
+        width: 417
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64332fce71401fe0800000000000000
+      internalID: -1220403486120528787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_43
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 597
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f432d5767c4c70420800000000000000
+      internalID: 2596260070914073423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_44
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 514
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a496fa87532b8380800000000000000
+      internalID: -8968035374077668188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_45
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 517
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6559af24ad20e4e00800000000000000
+      internalID: 1030764501164266838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_46
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 488
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803a5387c82bb8d80800000000000000
+      internalID: -8247301976216984824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_47
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 514
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff70b6eacb371190800000000000000
+      internalID: -7991853271105896459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_48
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 553
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe14750de97d5fa0800000000000000
+      internalID: -5810353885332365574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_49
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 530
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d95c1398912d7f0800000000000000
+      internalID: -589380524195865270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_50
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 560
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a1756cfae163f60800000000000000
+      internalID: 8013626327248083484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_51
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 517
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849bfb60b83227560800000000000000
+      internalID: 7309944225196390728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_52
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 535
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c40bfacddd75b0800000000000000
+      internalID: -5368891316891236746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_53
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 558
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b770db4e00a9010800000000000000
+      internalID: 1196269633444215579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_54
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 526
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9739cd2937c85dbd0800000000000000
+      internalID: -2606022381350907015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_55
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 559
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a6c85896001970800000000000000
+      internalID: 8723479729610859878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_56
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 550
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8af491e713b14ab0800000000000000
+      internalID: -5025538794018506102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_57
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 514
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b24baa38e76d7b90800000000000000
+      internalID: -7242518378627513678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_58
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 550
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ac69b910f9dae60800000000000000
+      internalID: 7975205344397150750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_59
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 514
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb16626e7db392220800000000000000
+      internalID: 2461564469799969215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_60
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 497
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ad3fa1223f1ff0800000000000000
+      internalID: -63276749504534678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_61
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 549
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdd9e11918a818e0800000000000000
+      internalID: -1722442031841026635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_62
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 489
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e672009dafc759670800000000000000
+      internalID: 8544873284829718382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_63
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 482
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec699f65504f7db0800000000000000
+      internalID: -4792040742810194717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_64
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 489
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c388011b56993780800000000000000
+      internalID: -8702759487044811837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_65
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 506
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e8681b29d4e01b0800000000000000
+      internalID: -5688523986883408239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_66
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 488
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afcd2125107deb90800000000000000
+      internalID: -7210984192297021534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_67
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 500
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9109fc6c206ac5ef0800000000000000
+      internalID: -118036959362838503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_68
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 497
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54231ddeba3841ab0800000000000000
+      internalID: -5038257308668186043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_69
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 433
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc5c5988ab956970800000000000000
+      internalID: 8747568999398399186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_70
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 474
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ae37fff788cd250800000000000000
+      internalID: 5970797289314445837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_71
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 454
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684bf979e21121ba0800000000000000
+      internalID: -6119810051833088890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_72
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 463
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9afd555d5550af0800000000000000
+      internalID: -430843814586897962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_73
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 450
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b21126e27cc5add0800000000000000
+      internalID: -2475347626310954314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_74
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 477
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a6e3ada4016be60800000000000000
+      internalID: 7977581703608560207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_75
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 474
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa0a62f088267140800000000000000
+      internalID: 4717002194005134065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_76
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 462
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48cba2d8a75fd100800000000000000
+      internalID: 134922896444999755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_77
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 480
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c3ef97a834b0ee0800000000000000
+      internalID: -1293866205907633051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_78
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 466
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b64252e57137dc0800000000000000
+      internalID: -3642541980495090839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_79
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 482
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88b38dcac10c09b0800000000000000
+      internalID: -5112709506429372278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_80
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 463
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a14e4a7cb0cc8130800000000000000
+      internalID: 3570440520336294304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_81
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 408
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5181a3efd431b6bd0800000000000000
+      internalID: -2635991931196663787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_82
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 412
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1bac5e7b86fcf50800000000000000
+      internalID: 6903851892825829798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_83
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 429
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2ba72aca51c94b0800000000000000
+      internalID: -5432443219311152438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_84
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 457
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2ad9f9303555f60800000000000000
+      internalID: 8022409586258322087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_85
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 454
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678aa3bc27dff22a0800000000000000
+      internalID: -6759905846182107018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_86
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 420
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324cf77c0b073ae70800000000000000
+      internalID: 9125261174546351139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_87
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 408
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c449f455eb9ec10800000000000000
+      internalID: 2083405576252181654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_88
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 433
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9de62b7931c6950800000000000000
+      internalID: 6443546709114935722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_89
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 408
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8db275bf84a4dc90800000000000000
+      internalID: -7145905771598660211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_90
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 418
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8373af13140d8a070800000000000000
+      internalID: 8117967306765252408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_91
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 408
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9f5c293e0377560800000000000000
+      internalID: 7311366274037447135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_92
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 413
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e0a9ee1fff4c780800000000000000
+      internalID: -8663518368598716788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANIM_Die_Down_Amira_93
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91c4a353216b6330800000000000000
+      internalID: 3705161922797420956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ANIM_Die_Down_Amira_0: -3198754783795341263
+      ANIM_Die_Down_Amira_1: -1894290698694287423
+      ANIM_Die_Down_Amira_10: 505457280270800731
+      ANIM_Die_Down_Amira_11: -385476195218666934
+      ANIM_Die_Down_Amira_12: 5533937450504707577
+      ANIM_Die_Down_Amira_13: -8617372408802990005
+      ANIM_Die_Down_Amira_14: -7220450748045091728
+      ANIM_Die_Down_Amira_15: 5023358163305163663
+      ANIM_Die_Down_Amira_16: 7264177302829198945
+      ANIM_Die_Down_Amira_17: -3326963752473131028
+      ANIM_Die_Down_Amira_18: -7304681553386189920
+      ANIM_Die_Down_Amira_19: 1697881287881433241
+      ANIM_Die_Down_Amira_2: 5014802477591686148
+      ANIM_Die_Down_Amira_20: -4425647755643246596
+      ANIM_Die_Down_Amira_21: -2661364329481564924
+      ANIM_Die_Down_Amira_22: -293990593564163985
+      ANIM_Die_Down_Amira_23: -4801049025562446263
+      ANIM_Die_Down_Amira_24: 1153227588189869933
+      ANIM_Die_Down_Amira_25: 3357558709659895625
+      ANIM_Die_Down_Amira_26: -3736636758574818612
+      ANIM_Die_Down_Amira_27: -4072225845067697850
+      ANIM_Die_Down_Amira_28: 5406530226803349101
+      ANIM_Die_Down_Amira_29: -2559158483520808089
+      ANIM_Die_Down_Amira_3: 5527668650450169754
+      ANIM_Die_Down_Amira_30: 1991905536460704376
+      ANIM_Die_Down_Amira_31: 8479387293553352734
+      ANIM_Die_Down_Amira_32: -4610596246119552230
+      ANIM_Die_Down_Amira_33: -4126975570352371569
+      ANIM_Die_Down_Amira_34: 4101130315239062945
+      ANIM_Die_Down_Amira_35: -5086173143142979910
+      ANIM_Die_Down_Amira_36: 8265559220466329167
+      ANIM_Die_Down_Amira_37: 5050785260354359432
+      ANIM_Die_Down_Amira_38: -3522690072310519518
+      ANIM_Die_Down_Amira_39: -8236141916552659926
+      ANIM_Die_Down_Amira_4: 2304904604547592537
+      ANIM_Die_Down_Amira_40: 8941563740025070306
+      ANIM_Die_Down_Amira_41: 1767030405502389850
+      ANIM_Die_Down_Amira_42: -1220403486120528787
+      ANIM_Die_Down_Amira_43: 2596260070914073423
+      ANIM_Die_Down_Amira_44: -8968035374077668188
+      ANIM_Die_Down_Amira_45: 1030764501164266838
+      ANIM_Die_Down_Amira_46: -8247301976216984824
+      ANIM_Die_Down_Amira_47: -7991853271105896459
+      ANIM_Die_Down_Amira_48: -5810353885332365574
+      ANIM_Die_Down_Amira_49: -589380524195865270
+      ANIM_Die_Down_Amira_5: 62607121234533022
+      ANIM_Die_Down_Amira_50: 8013626327248083484
+      ANIM_Die_Down_Amira_51: 7309944225196390728
+      ANIM_Die_Down_Amira_52: -5368891316891236746
+      ANIM_Die_Down_Amira_53: 1196269633444215579
+      ANIM_Die_Down_Amira_54: -2606022381350907015
+      ANIM_Die_Down_Amira_55: 8723479729610859878
+      ANIM_Die_Down_Amira_56: -5025538794018506102
+      ANIM_Die_Down_Amira_57: -7242518378627513678
+      ANIM_Die_Down_Amira_58: 7975205344397150750
+      ANIM_Die_Down_Amira_59: 2461564469799969215
+      ANIM_Die_Down_Amira_6: 1569575329482260267
+      ANIM_Die_Down_Amira_60: -63276749504534678
+      ANIM_Die_Down_Amira_61: -1722442031841026635
+      ANIM_Die_Down_Amira_62: 8544873284829718382
+      ANIM_Die_Down_Amira_63: -4792040742810194717
+      ANIM_Die_Down_Amira_64: -8702759487044811837
+      ANIM_Die_Down_Amira_65: -5688523986883408239
+      ANIM_Die_Down_Amira_66: -7210984192297021534
+      ANIM_Die_Down_Amira_67: -118036959362838503
+      ANIM_Die_Down_Amira_68: -5038257308668186043
+      ANIM_Die_Down_Amira_69: 8747568999398399186
+      ANIM_Die_Down_Amira_7: -3932459522449598726
+      ANIM_Die_Down_Amira_70: 5970797289314445837
+      ANIM_Die_Down_Amira_71: -6119810051833088890
+      ANIM_Die_Down_Amira_72: -430843814586897962
+      ANIM_Die_Down_Amira_73: -2475347626310954314
+      ANIM_Die_Down_Amira_74: 7977581703608560207
+      ANIM_Die_Down_Amira_75: 4717002194005134065
+      ANIM_Die_Down_Amira_76: 134922896444999755
+      ANIM_Die_Down_Amira_77: -1293866205907633051
+      ANIM_Die_Down_Amira_78: -3642541980495090839
+      ANIM_Die_Down_Amira_79: -5112709506429372278
+      ANIM_Die_Down_Amira_8: -906204090028242040
+      ANIM_Die_Down_Amira_80: 3570440520336294304
+      ANIM_Die_Down_Amira_81: -2635991931196663787
+      ANIM_Die_Down_Amira_82: 6903851892825829798
+      ANIM_Die_Down_Amira_83: -5432443219311152438
+      ANIM_Die_Down_Amira_84: 8022409586258322087
+      ANIM_Die_Down_Amira_85: -6759905846182107018
+      ANIM_Die_Down_Amira_86: 9125261174546351139
+      ANIM_Die_Down_Amira_87: 2083405576252181654
+      ANIM_Die_Down_Amira_88: 6443546709114935722
+      ANIM_Die_Down_Amira_89: -7145905771598660211
+      ANIM_Die_Down_Amira_9: 5721053074291666798
+      ANIM_Die_Down_Amira_90: 8117967306765252408
+      ANIM_Die_Down_Amira_91: 7311366274037447135
+      ANIM_Die_Down_Amira_92: -8663518368598716788
+      ANIM_Die_Down_Amira_93: 3705161922797420956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

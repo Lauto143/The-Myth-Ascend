@@ -12,14 +12,30 @@ public class Health : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        onHealthChanged.Invoke(currentHealth);
-        
+        onHealthChanged?.Invoke(currentHealth);
     }
 
-    void Update()
+    public void TakeDamage(float amount)
     {
-        /*Debug.Log("La vida es " + (currentHealth));*/
+        currentHealth -= Mathf.RoundToInt(amount);
+
+        if (currentHealth < 0)
+            currentHealth = 0;
+
+        onHealthChanged?.Invoke(currentHealth);
+
+        Debug.Log("Player recibió daño. Vida restante: " + currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
-
+    void Die()
+    {
+        Debug.Log("El jugador ha muerto.");
+        onDeath?.Invoke();
+        // Podés agregar respawn o animación acá.
+    }
 }
