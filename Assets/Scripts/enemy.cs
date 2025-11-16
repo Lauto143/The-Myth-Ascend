@@ -18,8 +18,12 @@ public class Enemy : MonoBehaviour
     public float patrolDistance = 3f;
     public float waitTime = 2f;
 
+    [Header("Referencias")]
     private Transform player;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
+    private Animator anim;
+
     private Vector2 startPoint;
     private bool movingRight = true;
     private float waitTimer;
@@ -28,6 +32,9 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+
         startPoint = transform.position;
         waitTimer = 0f;
         currentHealth = maxHealth;
@@ -39,7 +46,7 @@ public class Enemy : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // Si el jugador está dentro del radio de detección → perseguir
+        // Si el jugador está cerca → perseguir
         if (distance < detectionRadius)
         {
             ChasePlayer(distance);
@@ -48,23 +55,34 @@ public class Enemy : MonoBehaviour
         {
             Patrol();
         }
+
+        // Actualiza animaciones
+        anim.SetBool("IsWalking", rb.linearVelocity.magnitude > 0.1f);
     }
 
     void ChasePlayer(float distance)
     {
+        // Mirar hacia donde está el jugador
+        sr.flipX = player.position.x < transform.position.x;
+
         if (distance > stopDistance)
         {
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = direction * speed;
+            anim.SetBool("IsAttacking", false);
         }
         else
         {
+            // Está en rango de ataque → no moverse y atacar
             rb.linearVelocity = Vector2.zero;
+            anim.SetBool("IsAttacking", true);
         }
     }
 
     void Patrol()
     {
+        anim.SetBool("IsAttacking", false);
+
         if (waitTimer > 0f)
         {
             waitTimer -= Time.deltaTime;
@@ -77,30 +95,42 @@ public class Enemy : MonoBehaviour
         if (movingRight)
         {
             rb.linearVelocity = new Vector2(speed, 0f);
+            sr.flipX = false;
+
             if (distanceFromStart >= patrolDistance)
             {
                 movingRight = false;
                 waitTimer = waitTime;
-                FlipSprite();
             }
         }
         else
         {
             rb.linearVelocity = new Vector2(-speed, 0f);
+            sr.flipX = true;
+
             if (distanceFromStart <= -patrolDistance)
             {
                 movingRight = true;
                 waitTimer = waitTime;
-                FlipSprite();
             }
         }
     }
 
-    void FlipSprite()
+    // --- COLISIÓN PARA ATAQUE ---
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        if (collision.collider.CompareTag("Player"))
+        {
+            anim.SetBool("IsAttacking", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            anim.SetBool("IsAttacking", false);
+        }
     }
 
     // --- VIDA ---
@@ -123,9 +153,5 @@ public class Enemy : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
-
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(transform.position + Vector3.left * patrolDistance,
-                        transform.position + Vector3.right * patrolDistance);
     }
 }

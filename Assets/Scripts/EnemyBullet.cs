@@ -12,20 +12,16 @@ public class EnemyBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Ignorar enemigos (incluye al jefe y otros)
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Boss"))
+        // Ignorar TODOS los enemigos usando LAYER
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
             return;
 
         // Si toca al Player → daño + destruir bala
         if (collision.CompareTag("Player"))
         {
-            // Debug.Log("Bala impactó al Player");
-
             Health health = collision.GetComponent<Health>();
             if (health != null)
-            {
                 health.TakeDamage(damage);
-            }
 
             Destroy(gameObject);
             return;
@@ -34,7 +30,6 @@ public class EnemyBullet : MonoBehaviour
         // Si toca paredes, piso o colisión del mapa
         if (collision.CompareTag("Collider"))
         {
-            // Debug.Log("Bala impactó un Collider");
             Destroy(gameObject);
         }
     }

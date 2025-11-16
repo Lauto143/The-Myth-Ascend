@@ -94,11 +94,11 @@ GameObject:
   - component: {fileID: 3022467872063915871}
   - component: {fileID: 749329640770501950}
   - component: {fileID: 3974563375942424976}
-  - component: {fileID: 3149300761655552542}
   - component: {fileID: 1289920879382494273}
+  - component: {fileID: -735000353475496959}
   m_Layer: 0
   m_Name: EnemyRanged
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,7 +250,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3149300761655552542
+--- !u!114 &1289920879382494273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876213754562361660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8fddb3066377574dbdd69e93e1c2243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
+  bulletPrefab: {fileID: 3807920577358510328, guid: c180a657091ca7d4081e65c5907b52b3, type: 3}
+  shootPoint: {fileID: 0}
+  fireForce: 8
+  fireCooldown: 1.5
+  shootRange: 6
+  maxHealth: 3
+  moveSpeed: 2
+  patrolDistance: 2
+  waitTime: 2
+--- !u!114 &-735000353475496959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,25 +289,4 @@ MonoBehaviour:
   maxHealth: 3
   damage: 1
   patrolDistance: 3
-  waitTime: 2
---- !u!114 &1289920879382494273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876213754562361660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fddb3066377574dbdd69e93e1c2243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
-  bulletPrefab: {fileID: 18887465348576784, guid: b2692addc27c89f4eb1553af62bfd78b, type: 3}
-  shootPoint: {fileID: 0}
-  fireForce: 8
-  fireCooldown: 1.5
-  shootRange: 6
-  maxHealth: 3
-  moveSpeed: 2
-  patrolDistance: 2
   waitTime: 2
