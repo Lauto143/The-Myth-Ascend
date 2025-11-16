@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Back
+  - Enemy
+  - Collider
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -42,6 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 610176593
+    locked: 0
   - name: Ground
     uniqueID: 567745353
     locked: 0
@@ -51,11 +56,20 @@ TagManager:
   - name: Player
     uniqueID: 1733517453
     locked: 0
+  - name: Enemy
+    uniqueID: 1811049337
+    locked: 0
+  - name: Bullet
+    uniqueID: 2405362261
+    locked: 0
   - name: Frontplayer
     uniqueID: 2738962659
     locked: 0
   - name: Deco
     uniqueID: 2207763181
+    locked: 0
+  - name: Colidder
+    uniqueID: 421513025
     locked: 0
   m_RenderingLayers:
   - Default

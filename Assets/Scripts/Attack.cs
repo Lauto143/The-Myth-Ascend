@@ -16,6 +16,7 @@ public class Attack : MonoBehaviour
 
     private float shootTimer = 0f;
     private bool isAttack = false;
+    private bool isShoot = false;
     private PlayerInput PI;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -62,24 +63,36 @@ public class Attack : MonoBehaviour
 
     void HandleRangedAttack()
     {
-        if (PI.actions["RangedAttack"].triggered)
+        if (PI.actions["RangedAttack"].triggered && !isShoot) // 🔹 evita disparar si ya está disparando
         {
             AudioManager.instance.PlaySFX(7);
-            OnShoot();
+            StartCoroutine(PerformRangedAttack());
         }
-    Debug.Log("Ranged Attack triggered");
-
     }
 
-    void OnShoot()
+    IEnumerator PerformRangedAttack()
     {
-        if (shootTimer < shootCooldown)
-            return;
+        isShoot = true; // 🔹 activamos el flag
+        animator.SetBool("IsShoot", true); // 🔹 para animación (opcional)
 
-        shootTimer = 0f;
-        GameObject intBullet = Instantiate(Bullet, Aim.position, Aim.rotation);
-        intBullet.GetComponent<Rigidbody2D>().AddForce(Aim.up * fireForce, ForceMode2D.Impulse);
+        OnShoot();
 
-        Destroy(intBullet, 2f); // destruir bala luego de 2 segundos
+        yield return new WaitForSeconds(shootCooldown); // tiempo entre disparos
+
+        animator.SetBool("IsShoot", false);
+        isShoot = false; // 🔹 lo desactivamos
     }
+
+void OnShoot()
+{
+    GameObject intBullet = Instantiate(Bullet, Aim.position, Aim.rotation);
+    Rigidbody2D rb = intBullet.GetComponent<Rigidbody2D>();
+
+    // Dispara en la última dirección en la que se movió el jugador
+    Vector2 direction = lastDirection.normalized;
+    rb.AddForce(direction * fireForce, ForceMode2D.Impulse);
+
+    Destroy(intBullet, 2f);
+}
+
 }

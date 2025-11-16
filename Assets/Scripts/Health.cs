@@ -16,6 +16,22 @@ public class Health : MonoBehaviour
         PlayerManager.Instance.livesValueText.text = currentHealth.ToString();
     }
 
+    public void TakeDamage(float amount)
+    {
+    currentHealth -= Mathf.RoundToInt(amount);
+
+        if (currentHealth < 0)
+            currentHealth = 0;
+
+        onHealthChanged?.Invoke(currentHealth);
+
+        Debug.Log("Player recibió daño. Vida restante: " + currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
     void Update()
     {
         /*Debug.Log("La vida es " + (currentHealth));*/
@@ -26,6 +42,7 @@ public class Health : MonoBehaviour
         }
         
     }
+      
 
     private void UsePotion()
     {
@@ -44,6 +61,12 @@ public class Health : MonoBehaviour
             Debug.Log("Sin pociones");
         }
     }
+        
 
-
+    void Die()
+    {
+        Debug.Log("El jugador ha muerto.");
+        onDeath?.Invoke();
+        // Podés agregar respawn o animación acá.
+    }
 }

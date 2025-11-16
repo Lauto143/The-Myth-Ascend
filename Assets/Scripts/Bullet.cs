@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
             enemy.TakeDamage(damage);
             Destroy(gameObject); // destruir el proyectil al impactar
         }
-        else if (collision.CompareTag("Ground"))
+        else if (collision.CompareTag("Collider"))
         {
             Destroy(gameObject); // también se destruye al chocar con el suelo
         }
