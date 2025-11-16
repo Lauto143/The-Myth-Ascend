@@ -133,9 +133,11 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // --- VIDA ---
-    public void TakeDamage(float amount)
-    {
+public void TakeDamage(float amount)
+{
+    
+  
+    AudioManager.instance.PlaySFX(3);
         currentHealth -= amount;
         Debug.Log($"{gameObject.name} recibió {amount} de daño. Vida restante: {currentHealth}");
 
@@ -145,6 +147,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+      AudioManager.instance.PlaySFX(4);
         Debug.Log(gameObject.name + " ha muerto.");
         Destroy(gameObject);
     }

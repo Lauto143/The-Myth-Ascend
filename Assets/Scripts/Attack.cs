@@ -64,7 +64,10 @@ public class Attack : MonoBehaviour
     void HandleRangedAttack()
     {
         if (PI.actions["RangedAttack"].triggered && !isShoot) // 🔹 evita disparar si ya está disparando
+        {
+            AudioManager.instance.PlaySFX(7);
             StartCoroutine(PerformRangedAttack());
+        }
     }
 
     IEnumerator PerformRangedAttack()
