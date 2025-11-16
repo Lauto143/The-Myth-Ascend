@@ -31,6 +31,7 @@ public class Health : MonoBehaviour
     {
         if (PlayerManager.Instance.potions > 0)
         {
+            AudioManager.instance.PlaySFX(1);
             currentHealth += 1;
             PlayerManager.Instance.potions -= 1;
             Debug.Log("Pocion usada");

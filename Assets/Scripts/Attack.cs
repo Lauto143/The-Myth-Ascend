@@ -63,7 +63,10 @@ public class Attack : MonoBehaviour
     void HandleRangedAttack()
     {
         if (PI.actions["RangedAttack"].triggered)
+        {
+            AudioManager.instance.PlaySFX(7);
             OnShoot();
+        }
     Debug.Log("Ranged Attack triggered");
 
     }

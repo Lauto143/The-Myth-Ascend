@@ -114,6 +114,7 @@ public class Enemy : MonoBehaviour
 
 public void TakeDamage(float amount)
 {
+    AudioManager.instance.PlaySFX(3);
     health -= amount;
     Debug.Log(gameObject.name + " recibió " + amount + " de daño. Vida restante: " + health);
 
@@ -125,6 +126,7 @@ public void TakeDamage(float amount)
 
 void Die()
 {
+    AudioManager.instance.PlaySFX(4);
     Debug.Log(gameObject.name + " ha muerto.");
     Destroy(gameObject);
 }
